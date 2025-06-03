@@ -13,11 +13,11 @@ from swebench.harness.constants.rust import *
 
 
 # Constants - Evaluation Log Directories
-BASE_IMAGE_BUILD_DIR = Path("logs/build_images/base")
-ENV_IMAGE_BUILD_DIR = Path("logs/build_images/env")
-INSTANCE_IMAGE_BUILD_DIR = Path("logs/build_images/instances")
-RUN_EVALUATION_LOG_DIR = Path("logs/run_evaluation")
-RUN_VALIDATION_LOG_DIR = Path("logs/run_validation")
+BASE_IMAGE_BUILD_DIR = Path("/opt/runtimes/logs/build_images/base")
+ENV_IMAGE_BUILD_DIR = Path("/opt/runtimes/logs/build_images/env")
+INSTANCE_IMAGE_BUILD_DIR = Path("/opt/runtimes/logs/build_images/instances")
+RUN_EVALUATION_LOG_DIR = Path("/opt/runtimes/logs/run_evaluation")
+RUN_VALIDATION_LOG_DIR = Path("/opt/runtimes/logs/run_validation")
 
 
 # Constants - Task Instance Class
